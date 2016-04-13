@@ -1,0 +1,32 @@
+//
+//  HZYPrefixHeader.pch
+//  世界辣么大
+//
+//  Created by dllo on 16/3/14.
+//  Copyright © 2016年 洪振宇. All rights reserved.
+//
+
+#ifndef HZYPrefixHeader_pch
+#define HZYPrefixHeader_pch
+
+#define ONEPAGEHTTP @"http://open.qyer.com/qyer/recommands/trip?client_id=qyer_ios&client_secret=cd254439208ab658ddf9&count=10&lat=38.88243613878481&lon=121.5395037608858&page=%d&track_app_version=6.8.4&track_deviceid=F1CC1DC7-CC07-473E-BE71-407A9CED5975&type=index&v=1"
+
+#define ONEPAGEHTTP_LUNBO @"http://open.qyer.com/qyer/recommands/entry?client_id=qyer_ios&client_secret=cd254439208ab658ddf9&count=20&lat=38.88249805852605&lon=121.5395815612033&page=1&track_app_channel=App%2520Store&track_app_version=6.8.4&track_device_info=iPhone7%2C2&track_deviceid=F1CC1DC7-CC07-473E-BE71-407A9CED5975&track_os=ios%25209.2.1&v=1"
+
+#define SOURCHHTTP @"http://open.qyer.com/qyer/search/index?client_id=qyer_ios&client_secret=cd254439208ab658ddf9&count=20&keyword=%@&lat=38.88246951127653&lon=121.5396829669402&oauth_token=7ed3ae5c6cd23159f4cee9adc1f5fe55&page=1&track_app_version=6.8.4&track_deviceid=F1CC1DC7-CC07-473E-BE71-407A9CED5975&track_user_id=7562345&type=place&v=1"
+
+#define SOURCHHTTP_TWO @"http://open.qyer.com/qyer/footprint/poi_detail?client_id=qyer_ios&client_secret=cd254439208ab658ddf9&count=20&lat=38.88243812532937&lon=121.5395907089672&oauth_token=7ed3ae5c6cd23159f4cee9adc1f5fe55&page=1&poi_id=%@&screensize=750&track_app_version=6.8.4&track_deviceid=F1CC1DC7-CC07-473E-BE71-407A9CED5975&track_user_id=7562345&v=1"
+
+#define THREEPAGEONE @"http://open.qyer.com/qyer/footprint/continent_list?client_id=qyer_ios&client_secret=cd254439208ab658ddf9&count=20&lat=38.88251748909345&lon=121.5397005241575&page=1&track_app_channel=App%2520Store&track_app_version=6.8.4&track_device_info=iPhone7%2C2&track_deviceid=F1CC1DC7-CC07-473E-BE71-407A9CED5975&track_os=ios%25209.2.1&v=1"
+
+#ifdef DEBUG
+#    define DLog(...) NSLog(__VA_ARGS__)
+#else
+#    define DLog(...)
+#endif
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* HZYPrefixHeader_pch */
